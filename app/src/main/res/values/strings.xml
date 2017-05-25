@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Khmer Acadamy</string>
+    <string name="title">My First Layout Title</string>
+    <string name="btnHighSchool">High School</string>
+</resources>

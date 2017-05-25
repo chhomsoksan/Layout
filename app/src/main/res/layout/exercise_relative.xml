@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/bear" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignLeft="@id/img1"
+            android:layout_alignTop="@id/img1"
+            android:background="@color/sabay"
+            android:src="@drawable/sabay" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is simple date to input This is simple date to input This is  to input"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:src="@drawable/ic_brightness_1_black_24dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img2"
+            android:text="Technology"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img2"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:src="@drawable/ic_brightness_1_black_24dp" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/img2"
+            android:text="22/12/2017" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/txt3"
+            android:text="More.."
+            android:background="#000000"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

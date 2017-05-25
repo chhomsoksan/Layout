@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kshrd.layout.MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@color/orange"
+       android:orientation="horizontal">
+
+       <ImageView
+           android:id="@+id/imageView"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:padding="10dp"
+           android:layout_marginLeft="20dp"
+           android:src="@drawable/ic_assignment_ind_black_24dp" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:text="High School"
+           android:gravity="left|center"
+           android:layout_weight="1"
+           android:padding="10dp"
+           android:layout_marginLeft="20dp"
+           />
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_marginLeft="20dp"
+           android:gravity="right"
+           android:padding="10dp"
+           android:src="@drawable/ic_arrow_downward_black_24dp" />
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/green"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_assignment_ind_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Middle School"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="right"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_downward_black_24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_assignment_ind_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Secondary School"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="right"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_downward_black_24dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/brown"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_assignment_ind_black_24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Kindergarten"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:gravity="right"
+            android:padding="10dp"
+            android:src="@drawable/ic_arrow_downward_black_24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

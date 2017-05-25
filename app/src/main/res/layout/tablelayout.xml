@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow>
+        <Button android:text="Submit"
+            android:background="@color/btnsubmit"/>
+        <Button android:text="Primary"
+            android:background="@color/btnprimary"/>
+        <Button android:text="Danger"
+            android:background="@color/btndanger"/>
+        <Button android:text="Success"
+            android:background="@color/btnsuccess"
+            android:layout_weight="1"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="Cambodia"
+            android:layout_span="2"
+            android:layout_weight="1"/>
+        <Button android:text="Thailand" />
+        <Button android:text="Vietnam"/>
+    </TableRow>
+
+    <TableRow>
+        <Button android:text="Kingdom Of Wonder"
+            android:layout_span="4"
+            android:layout_weight="1"/>
+    </TableRow>
+    <TableRow>
+        <Button android:text="Save"
+                android:layout_column="3"
+                android:layout_weight="1"/>
+    </TableRow>
+</TableLayout>
